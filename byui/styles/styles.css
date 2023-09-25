@@ -2,10 +2,18 @@ body {
     text-align: center;
 }
 nav {
+    #active {
+        background-color: white;
+        color: steelblue;
+    }
     background-color: steelblue;
     padding: 10px;
 }
 a {
+    .main-para {
+        font-size: 1.5em;
+        line-height: 1.5em;
+    }
     color: white;
     margin: 40px;
 }
