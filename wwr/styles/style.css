@@ -239,6 +239,127 @@ footer p a:hover {
 
 
 
+/* Start of rates and dates css */
+
+#states {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#states-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+
+#states-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+#states-msg h1 {
+    text-align: center;
+    color: azure;
+}
+
+#states-img {
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.rates-title {
+    font-family: 'Caveat', Arial, sans-serif ;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.rates-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.grand_canyon {
+    width: 100%;
+    grid-column: 6/10;
+    grid-row: 2/5;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin: auto;
+}
+
+#background_rates {
+    background-color: lightblue;
+    grid-column: 1/11;
+    grid-row: 1/5;
+    z-index: -1;
+}
+
+.gc_msg {
+    background-color:#a8dadc;
+    grid-column: 2/6;
+    grid-row: 2/4;
+}
+
+.gc_msg h2, .sr_msg h2, .d_msg h2, .info h2{
+    font-family: 'Caveat', Arial, sans-serif;
+    color: black;
+}
+
+.gc_msg, .sr_msg, .d_msg {
+    line-height: 1.5em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin: 100px;
+}
+
+.gc_msg p, .sr_msg p, .d_msg p, .info p {
+    color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.salmon_river {
+    width: 100%;
+    grid-column: 2/6;
+    grid-row: 6/10;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin: auto;
+
+}
+
+.sr_msg {
+    grid-column: 6/10;
+    grid-row: 6/9;
+    background-color: #67bdf2;
+}
+
+.desolation {
+    width: 100%;
+    grid-column: 6/10;
+    grid-row: 10/13;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin: auto;
+}
+
+.d_msg {
+    background-color:#a8dadc;
+    grid-column: 2/6;;
+    grid-row: 10/12;
+}
+
+#background_rates_2 {
+    background-color: lightblue;
+    grid-column: 1/11;
+    grid-row: 9/13;
+    z-index: -1;
+}
+
+.info {
+    grid-column: 2/10;
+    grid-row: 14/16;
+    justify-content: center;
+    align-content: center;
+    margin: 100px;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
