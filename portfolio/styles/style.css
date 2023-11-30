@@ -72,7 +72,7 @@ nav a:hover {
     color: black;
 }
 
-.home-grid .contact_me-grid {
+.home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     font-size: .8em;
@@ -194,8 +194,164 @@ footer p a:hover {
     width: 80px;
 }
 
+/* My work page css */
+
+#work_star {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#work_star-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#work_star-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    text-align: center;
+    color: #79cac1;
+    background-color: black;
+    box-shadow: 5px 5px 10px #dcdcdc;
+}
+
+#work_star-img {
+    width: 100%;
+    height: 75%;
+}
+
+.work_home-title {
+    font-family: 'Courgette', Arial, sans-serif;
+}
+
+.my_work-grid {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    font-size: .8em;
+}
+.python {
+    grid-column: 2/6;
+    margin: auto;
+    background-color: black;
+    box-shadow: 5px 5px 10px #dcdcdc;
+    color: #79cac1;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Courgette', Arial, sans-serif;
+}
+
+.python-img {
+    grid-column: 2/6;
+    grid-row: 4/6;
+    width: 100%;
+    margin: 75px auto 10px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.python-msg {
+    grid-column: 2/6;
+    grid-row: 7/9;
+    background-color: #1caaa5;
+    box-shadow: 5px 5px 10px #6f7364;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px auto 100px;
+
+}
+
+.word_game-img {
+    grid-column: 2/6;
+    grid-row: 10/12;
+    width: 100%;
+    margin: 50px auto 10px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.word_game-msg {
+    grid-column: 2/6;
+    grid-row: 13/15;
+    background-color: #1caaa5;
+    box-shadow: 5px 5px 10px #6f7364;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px auto 75px;
+
+}
+
+.web {
+    grid-column: 8/12;
+    margin: auto;
+    background-color: black;
+    box-shadow: 5px 5px 10px #dcdcdc;
+    color: #79cac1;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Courgette', Arial, sans-serif;
+}
+
+.web-img {
+    grid-column: 8/12;
+    grid-row: 4/6;
+    width: 100%;
+    margin: 75px auto 10px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.web-msg {
+    grid-column: 8/12;
+    grid-row: 7/9;
+    background-color: #1caaa5;
+    box-shadow: 5px 5px 10px #6f7364;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px auto 100px;    
+}
+
+.web_site-img {
+    grid-column: 8/12;
+    grid-row: 10/12;
+    width: 100%;
+    margin: 50px auto 10px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.web_site-msg {
+    grid-column: 8/12;
+    grid-row: 13/15;
+    background-color: #1caaa5;
+    box-shadow: 5px 5px 10px #6f7364;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px auto 75px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Contact Me CSS */
 /* Style the container with a rounded border, grey background and some padding and margin */
+
+
 .container {
     border: 2px solid #ccc;
     background-color: #eee;
