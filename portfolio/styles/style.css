@@ -330,29 +330,66 @@ footer p a:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Contact Me CSS */
+
+.contact_me-grid {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    font-size: .8em;
+}
+
+.opening {
+    grid-column: 2/13;
+    margin: -100px auto 50px;
+    background-color: black;
+    box-shadow: 5px 5px 10px #dcdcdc;
+    color: #79cac1;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.phone-img {
+    grid-column: 2/6;
+    grid-row: 7/9;
+    width: 100%;
+    margin: 75px auto 10px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.phone-msg {
+    grid-column: 2/6;
+    grid-row: 10/12;
+    background-color: #1caaa5;
+    box-shadow: 5px 5px 10px #6f7364;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px auto 150px;
+}
+
+.email-img {
+    grid-column: 9/13;
+    grid-row: 7/9;
+    width: 100%;
+    margin: 75px auto 10px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.email-msg {
+    grid-column: 9/13;
+    grid-row: 10/12;
+    background-color: #1caaa5;
+    box-shadow: 5px 5px 10px #6f7364;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px auto 150px;
+}
+
 /* Style the container with a rounded border, grey background and some padding and margin */
 
 
 .container {
+    grid-column: 2/13;
+    grid-row: 13/15;
     border: 2px solid #ccc;
     background-color: #eee;
     border-radius: 5px;
@@ -379,6 +416,37 @@ footer p a:hover {
     font-size: 20px;
     margin-right: 15px;
   }
+
+  .container-2 {
+    grid-column: 2/13;
+    grid-row: 15/18;
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+  }
+  
+  /* Clear floats after containers */
+  .container-2::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+  .container-2 img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  /* Increase the font-size of a span element */
+  .container-2 span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
   
   /* Add media queries for responsiveness. This will center both the text and the image inside the container */
   @media (max-width: 500px) {
