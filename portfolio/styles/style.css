@@ -4,8 +4,7 @@ body {
     background-color: #79cac1;
     font-family: 'poppins', arial, sans-serif;
     font-size: 22px;
-    margin: 0;
-    padding: 0;
+    margin: auto;
 }
 
 #content {
@@ -39,7 +38,7 @@ nav a {
 #star-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 100px;
+    margin-top: 3rem;
     text-align: center;
     color: #79cac1;
     background-color: black;
@@ -48,7 +47,7 @@ nav a {
 
 #star-img {
     width: 100%;
-    height: 75%;
+    height: 100%;
 }
 
 .home-title {
@@ -80,13 +79,13 @@ nav a:hover {
 
 .about-me {
     grid-column: 1/11;
-    margin-top: -110px;
-    margin: auto;
+    margin: 1rem auto;
+    padding-left: 100px;
+    padding-right: 100px;
     background-color: black;
     box-shadow: 5px 5px 10px #dcdcdc;
     color: #79cac1;
-    padding-left: 100px;
-    padding-right: 100px;
+    text-align: center;
     font-family: 'Courgette', Arial, sans-serif;
 }
 
@@ -102,8 +101,6 @@ nav a:hover {
     grid-column: 6/10;
     grid-row: 2/5;
     background-color: #1caaa5;
-    margin-top: 50px;
-    margin-bottom: 50px;
     box-shadow: 5px 5px 10px #6f7364;
     padding-left: 20px;
     padding-right: 20px;
@@ -112,7 +109,7 @@ nav a:hover {
 .education {
     grid-column: 1/11;
     grid-row: 7/8;
-    margin: auto;
+    margin: 1rem auto;
     background-color: black;
     box-shadow: 5px 5px 10px #dcdcdc;
     color: #79cac1;
@@ -134,8 +131,8 @@ nav a:hover {
     grid-column: 2/6;
     grid-row: 9/13;
     background-color: #1caaa5;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 1rem auto;
+
     box-shadow: 5px 5px 10px #6f7364;
     padding-left: 20px;
     padding-right: 20px;
@@ -226,106 +223,30 @@ footer p a:hover {
     font-family: 'Courgette', Arial, sans-serif;
 }
 
-.my_work-grid {
-    display: grid;
-    grid-template-columns: repeat(13, 1fr);
-    font-size: .8em;
+.bill main {
+    text-align: center;
 }
-.python {
-    grid-column: 2/6;
-    margin: auto;
-    background-color: black;
-    box-shadow: 5px 5px 10px #dcdcdc;
-    color: #79cac1;
-    padding-left: 100px;
-    padding-right: 100px;
+
+.bill main section {
+    margin-bottom: 30px;
+}
+
+.bill main h2 {
     font-family: 'Courgette', Arial, sans-serif;
+    font-size: 2em;
+    color: #555;
+    margin-bottom: 10px;
 }
 
-.python-img {
-    grid-column: 2/6;
-    grid-row: 4/6;
-    width: 100%;
-    margin: 75px auto 10px;
-    box-shadow: 5px 5px 10px #6f7364;
+.bill main p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #666;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 800px;
 }
 
-.python-msg {
-    grid-column: 2/6;
-    grid-row: 7/9;
-    background-color: #1caaa5;
-    box-shadow: 5px 5px 10px #6f7364;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 20px auto 100px;
-
-}
-
-.word_game-img {
-    grid-column: 2/6;
-    grid-row: 10/12;
-    width: 100%;
-    margin: 50px auto 10px;
-    box-shadow: 5px 5px 10px #6f7364;
-}
-
-.word_game-msg {
-    grid-column: 2/6;
-    grid-row: 13/15;
-    background-color: #1caaa5;
-    box-shadow: 5px 5px 10px #6f7364;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 20px auto 75px;
-
-}
-
-.web {
-    grid-column: 8/12;
-    margin: auto;
-    background-color: black;
-    box-shadow: 5px 5px 10px #dcdcdc;
-    color: #79cac1;
-    padding-left: 100px;
-    padding-right: 100px;
-    font-family: 'Courgette', Arial, sans-serif;
-}
-
-.web-img {
-    grid-column: 8/12;
-    grid-row: 4/6;
-    width: 100%;
-    margin: 75px auto 10px;
-    box-shadow: 5px 5px 10px #6f7364;
-}
-
-.web-msg {
-    grid-column: 8/12;
-    grid-row: 7/9;
-    background-color: #1caaa5;
-    box-shadow: 5px 5px 10px #6f7364;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 20px auto 100px;    
-}
-
-.web_site-img {
-    grid-column: 8/12;
-    grid-row: 10/12;
-    width: 100%;
-    margin: 50px auto 10px;
-    box-shadow: 5px 5px 10px #6f7364;
-}
-
-.web_site-msg {
-    grid-column: 8/12;
-    grid-row: 13/15;
-    background-color: #1caaa5;
-    box-shadow: 5px 5px 10px #6f7364;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 20px auto 75px;
-}
 
 
 
@@ -408,7 +329,7 @@ footer p a:hover {
   .container img {
     float: left;
     margin-right: 20px;
-    border-radius: 50%;
+    border-radius: 10%;
   }
   
   /* Increase the font-size of a span element */
@@ -438,7 +359,8 @@ footer p a:hover {
   .container-2 img {
     float: left;
     margin-right: 20px;
-    border-radius: 50%;
+    border-radius: 10%;
+    height: 100%;
   }
   
   /* Increase the font-size of a span element */
@@ -450,13 +372,7 @@ footer p a:hover {
   
   /* Add media queries for responsiveness. This will center both the text and the image inside the container */
   @media (max-width: 500px) {
-    .container {
-      text-align: center;
-    }
-  
-    .container img {
-      margin: auto;
-      float: none;
-      display: block;
+    body {
+        display: inline-block;
     }
   }
